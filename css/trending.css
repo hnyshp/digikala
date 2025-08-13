@@ -1,0 +1,89 @@
+.trending{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    .trending-center{
+        width: 80%;
+        height: 100%;
+       border: 1px solid lightgray;
+       border-radius: 20px;
+       .trending-center-text{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:20px;
+        font-family: var(--font-family);
+        font-size: 21px;
+        font-weight: 100;
+    }
+
+    }
+    .swiper {
+      width: 100%;
+      height: 100%;
+      margin-top: 10px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      .swiper-slide-trending-item{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        row-gap: 1px;
+        .swiper-slide-trending-item-product{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            column-gap: 5px;
+            img{
+                width: 86px;
+                height: 86px;
+            }
+            h6{
+                font-weight: bold;
+                color: #19BFD3;
+                font-family: var(--font-family);
+                font-size: 27px;
+
+            }
+            span{
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                box-orient: vertical;
+                -webkit-line-clamp: 2;
+                line-clamp: 2;
+                overflow: hidden;
+                font-family: var(--font-family);
+                font-size: 13px;
+                width: 90%;
+                color: #3f3838;
+
+            }
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+}
+.border-digital-bottom{
+    border-bottom: 1px solid rgb(238, 231, 231) ;
+}
